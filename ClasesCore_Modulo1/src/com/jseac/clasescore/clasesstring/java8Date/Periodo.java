@@ -9,7 +9,6 @@ public class Periodo {
 		
 		Period periodo = Period.between(LocalDate.now(), LocalDate.now().plusDays(10));
 		System.out.println(periodo.getDays());
-    System.out.println("creado desde github");
 		System.out.println(periodo.getMonths());
 		
 	}
